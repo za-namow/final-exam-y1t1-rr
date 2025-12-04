@@ -24,8 +24,13 @@ class DeliveryOrder:
     def assign_driver(driver):
         pass
     def summary():
-        return f"Order for {DeliveryOrder.order} → {DeliveryOrder.status}"
+        return f"Order Summary\nOrder for {DeliveryOrder.order} → {DeliveryOrder.status}"
 
 if __name__ == "__main__":
     name = Person("Alice")
     name.introduce()
+    name = Person("Bob")
+    name.introduce()
+    name = Person("David")
+    name.introduce()
+    print()
