@@ -27,4 +27,5 @@ class DeliveryOrder:
         return f"Order for {DeliveryOrder.order} → {DeliveryOrder.status}"
 
 if __name__ == "__main__":
-    Person.introduce("Alice")
+    name = Person("Alice")
+    name.introduce()
