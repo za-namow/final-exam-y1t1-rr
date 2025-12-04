@@ -10,3 +10,4 @@ and also a class of "DeliveryOrder" to show details of it including status, cust
 Project structure is mainly to OOP in python without any use of file handling.
 
 This project is NOT 100% completed, my apologies
+
